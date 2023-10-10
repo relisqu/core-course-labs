@@ -1,0 +1,5 @@
+---
+- name: VK Cloud python
+  import_playbook: "{{ playbook_dir }}/apps/python.yaml"
+- name: VK Cloud svelte
+  import_playbook: "{{ playbook_dir }}/apps/svelte.yaml"
